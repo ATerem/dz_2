@@ -1,9 +1,9 @@
-school_class = int(input('В каком ты классе?: '))
+school_class = 0
 
-while school_class <=11:
-    # аналогична записи school_class +1
+while school_class <=3:
+    school_class = int(input('Число: '))
     print(school_class)
-    school_class += 1
+
 
 
 print('end')

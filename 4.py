@@ -1,9 +1,8 @@
-n = int(input())
+n = int(input('Введите число: '))
 count = 0
-for i in range(n):
-    a = int(input())
-    if a == 0:
+for i in range(10):
+    a = int(input('Введите число: '))
+    if a == 5:
         count += 1
-    else:
-        count += 0
-print(count)
+
+print("Количество = ",count)
