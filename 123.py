@@ -1,6 +1,6 @@
-n = int(input())
+n = int(input('sdgfgn'))
 count = 0
-for i in range(n):
+for i in range(10):
     a = int(input())
     if a == 0:
         count += 1

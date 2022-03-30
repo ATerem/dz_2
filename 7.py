@@ -1,14 +1,6 @@
-a = input()
-a = int(a)
+i = 0
 
-even = 0
-odd = 0
-
-while a > 0:
-    if a % 2 == 0:
-        even += 1
-    else:
-        odd += 1
-    a = a // 10
-
-print("Even: %d, odd: %d" % (even, odd))
+while i < 10:
+    print(i)
+    i = i + 1
+    if i == 5: break
